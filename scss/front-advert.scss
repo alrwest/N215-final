@@ -1,0 +1,126 @@
+.front-advert {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    padding: 0 225px;
+
+    .location1 {
+        background-image: url("../images/tour/tour-israel/israel-tour-03.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+
+    .location2 {
+        background-image: url("../images/tour/tour-usa/usa-tour-03.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+    }
+
+    .location3 {
+        background-image: url("../images/tour/tour-aus/aus-tour-01.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+    }
+
+
+    .location4 {
+        background-image: url("../images/tour/tour-04.jpg");
+        background-position: center;
+        text-align: center;
+        width: 250px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+
+    .location5 {
+        background-image: url("../images/tour/tour-05.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+    .location6 {
+        background-image: url("../images/tour/tour-06.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+    }
+
+    .location7 {
+        background-image: url("../images/tour/tour-07.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+    .location8 {
+        background-image: url("../images/tour/tour-08.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+    .location9 {
+        background-image: url("../images/tour/tour-09.jpg");
+        background-position: center;
+        width: 236px;
+        height: 304px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    
+    .country {
+        margin-top: 50px;
+        color: #ffffff;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .price {
+        margin-top: -15px;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button {
+        width: 133px;
+        height: 40px;
+        background-color: #79ADDC; 
+        border-radius: 30px;
+        font-size: 15px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+}

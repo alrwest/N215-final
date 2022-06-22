@@ -1,0 +1,43 @@
+nav {
+     margin-top: 10px;
+}
+.main-tour-images {
+    .rowOne {
+        width: 981px;
+        min-height: 347px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .main-tour-hero {
+            margin-top: 150px;
+            width: 981px;
+            height: 200px;
+            background-image: url(../images/tour/tours-header.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.tour-title {
+     position: absolute;
+     left: 625px;
+     top: 200px;
+     font-family: ProximaNovaExtraCondensed;
+     font-size: 60px;
+     color: #ffffff;
+
+}
+
+.tour-wrapper {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,59 @@
+.universal-footer {
+    position: relative;
+    bottom: -250px;
+    height:100px;
+    width:100%;
+    background-color: #79ADDC; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 225px 0px 225px;
+
+    .logo {
+        position:relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px #ffffff;
+        span {
+            font-family: GillSans;
+            font-size: 20px;
+            position: absolute;
+            bottom: -5px;
+            color: #ffffff;
+        }
+    }
+
+    .copyright {
+        font-family: GillSans;
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+    .social-media {
+        color:#ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .facebook {
+            padding: 5px;
+        }
+
+        .instagram {
+            padding: 5px;
+        }
+
+        .twitter {
+            padding: 5px;
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .universal-footer {
+        padding: 0 10px;
+        .logo {
+            display: none;
+        }
+    }
+}

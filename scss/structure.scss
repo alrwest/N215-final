@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(../fonts/ProximaNova-Bold-webfont.woff);
+ }
+
+ @font-face {
+    font-family: ProximaNovaLight;
+    src: url(../fonts/ProximaNova-Light-webfont.woff);
+ }
+
+ @font-face {
+    font-family: ProximaNovaThin;
+    src: url(../fonts/ProximaNova-Thin-webfont.woff);
+ }
+
+
+ @font-face {
+    font-family: ProximaNovaExtraCondensed;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+ }
+
+ @font-face {
+    font-family: GillSans;
+    src: url(../fonts/GillSans.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansUltraBold;
+    src: url(../fonts/GillSans-UltraBold.ttf);
+ }
+
+
+ @font-face {
+    font-family: GillSansSemiBold;
+    src: url(../fonts/GillSans-SemiBold.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansSemiBoldItalic;
+    src: url(../fonts/GillSans-SemiBoldItalic.ttf);
+ }
+
+
+ @font-face {
+    font-family: GillSansLightItalic;
+    src: url(../fonts/GillSans-LightItalic.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansLight;
+    src: url(../fonts/GillSans-Light.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansItalic;
+    src: url(../fonts/GillSans-Italic.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansBold;
+    src: url(../fonts/GillSans-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: GillSansBoldItalic;
+    src: url(../fonts/GillSans-BoldItalic.ttf);
+ }
+
+ 

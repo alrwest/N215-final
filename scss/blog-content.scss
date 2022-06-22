@@ -1,0 +1,193 @@
+
+.blog-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .blog-content {
+        width: 975px;
+        height: 860px;
+        margin-top: 150px;
+
+        .blog-title {
+            font-family: ProximaNovaExtraCondensed;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .blog-bottom-border {
+            border-bottom: 2px solid #000000 ;
+            position: absolute;
+            width: 6%;
+            left: 175x;
+            bottom: 495px;
+        }
+
+        .blog-img-wrapper {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            align-content: right;
+            margin-top: 30px;
+    
+        .blog-img {
+            width: 900px;
+            height: 259px;
+            object-fit: cover;
+        }
+
+    }
+
+
+  }   
+
+    .date-wrapper {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: center;
+        margin-top: -259px;
+
+        .date {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #79ADDC;
+
+            .day {
+                color: #ffffff;
+                font-size: 22px;
+                margin-bottom: 3px;
+            }
+
+            .month {
+                color: #ffffff;
+                font-size: 12px;
+            }
+            
+        }
+
+    }
+
+    .content-header {
+        position: relative;
+        left: 75px;
+        top: 210px;
+        font-size: 15px;
+        color: #000000;
+    }
+
+    .blog-content-text{
+        display: flex;
+        width: 380px;
+        height: 64px;
+        justify-content: left;
+        align-items: left;
+        margin: 225px 0 0 75px;
+        font-family: GillSans;
+        font-size: 13px;
+        color:#79ADDC;
+    }
+}
+
+.blog-content-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+
+    .blog-content {
+        width: 975px;
+        height: 860px;
+        margin-top: 150px;
+
+        .blog-title {
+            font-family: GillSans;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .blog-bottom-border {
+            border-bottom: 2px solid #000000 ;
+            position: absolute;
+            width: 6%;
+            left: 175x;
+            bottom: 495px;
+        }
+
+        .blog-img-wrapper {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            align-content: right;
+            margin-top: 30px;
+    
+        .blog-img {
+            width: 900px;
+            height: 259px;
+            object-fit: cover;
+        }
+
+    }
+
+  }   
+
+    .date-wrapper {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: center;
+        margin-top: -259px;
+
+        .date {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #79ADDC;
+            
+
+            .day {
+                color: #ffffff;
+                font-size: 22px;
+            }
+
+            .month {
+                color: #ffffff;
+                font-size: 12px;
+            }
+            
+        }
+
+    }
+
+    .content-header {
+        position: relative;
+        left: 75px;
+        top: 210px;
+        font-family: GillSans;
+        font-size: 15px;
+        color: #000000;
+    }
+
+    .blog-content-text{
+        display: flex;
+        width: 380px;
+        height: 64px;
+        justify-content: left;
+        align-items: left;
+        margin: 225px 0 0 75px;
+        font-family: GillSans;
+        font-size: 13px;
+        color:#79ADDC;
+    }
+    .footer-wrapper {
+        position: absolute;
+        bottom: -500px;
+    }
+}
